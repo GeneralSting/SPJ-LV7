@@ -13,6 +13,7 @@ export const Navbar = () => {
         <nav>
             <NavLink style={NavLinkStyles} to='/'>Home</NavLink>
             <NavLink style={NavLinkStyles} to='/dodaj'>Dodaj</NavLink>
+            <NavLink style={NavLinkStyles} to='/pretrazivanje'>Search</NavLink>
         </nav>
     )
 }
